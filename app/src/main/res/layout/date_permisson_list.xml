@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/permission_username"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="23"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/permission_place"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="27"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/permission_value" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/permission_switchh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="28"
+         />
+</LinearLayout>

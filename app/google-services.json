@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378207048157",
+    "project_id": "biydaalt2",
+    "storage_bucket": "biydaalt2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378207048157:android:8b77c906d65f6b4cece634",
+        "android_client_info": {
+          "package_name": "com.example.biydaalt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378207048157-tq7klhrubn656cjpbah6pae1572pk2cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsgaezpKOEsT6CNOjdQJzvbUBOnYDDYU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378207048157-tq7klhrubn656cjpbah6pae1572pk2cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

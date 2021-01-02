@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_date"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="23"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_place"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="28"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_value" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_salary"/>
+</LinearLayout>
